@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
@@ -16,18 +16,35 @@
 </head>
 <body>
 
-  Equilibrium #3429
+  <main>
 
-  Our Equilibrium collection promotes balance and calm.
+    <article>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <header>
+        <img src="images/image-equilibrium.jpg" alt="" width="250" height="250">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </header>
+      
+      <section>
+        <div class="metadata">
+          <span>0.041 ETH</span>
+          <time datetime="2022-06-30">3 days left</time>
+        </div> <!-- .metadata -->
+      </section>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <footer>
+        <img src="images/image-avatar.png" alt="Jules Wyvern" width="50" height="50">
+        <p>Creation of Jules Wyvern</p>
+      </footer>
+
+    </article>
+
+  </main>
+
+  <footer class="attribution text-centered">
+    Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="attribution-link" href="https://www.linkedin.com/in/yarimorcus" target="_blank">Yari Morcus</a>.
+  </footer>
 </body>
 </html>
