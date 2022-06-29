@@ -140,25 +140,32 @@ main {
 }
 
 .nft-metadata {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 1.8rem;
     margin-bottom: 1.8rem;
     border-bottom: 1px solid $dark-blue-line;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .nft-eth-count {
+    position: relative;
+    padding-left: 1.85rem;
     font-family: "outfit", sans-serif;
     color: $cyan;
     font-size: 1.5rem;
 
     &::before {
+        position: absolute;
+        left: 0;
+        top: 50%;
         display: inline-block;
         width: 2rem;
         height: 1.5rem;
         background: url(../images/icon-ethereum.svg) left/1.5rem no-repeat;
         background-size: 1rem;
         content: "";
+        transform: translateY(-50%);
+
     }
 }
 
