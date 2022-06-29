@@ -140,22 +140,45 @@ main {
 }
 
 .nft-metadata {
+    padding-bottom: 1.8rem;
+    margin-bottom: 1.8rem;
+    border-bottom: 1px solid $dark-blue-line;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
+.nft-eth-count {
+    font-family: "outfit", sans-serif;
+    color: $cyan;
+    font-size: 1.5rem;
+
+    &::before {
+        display: inline-block;
+        width: 2rem;
+        height: 1.5rem;
+        background: url(../images/icon-ethereum.svg) left/1.5rem no-repeat;
+        background-size: 1rem;
+        content: "";
+    }
+}
+
 .nft-time-left {
+    position: relative;
     font-family: 'outfit';
     font-size: 1.5rem;
     text-align: right;
     @extend .soft-blue-color;
 
     &::before {
+        position: absolute;
+        top: 50%;
+        left: 3.8rem;
         display: inline-block;
         width: 3rem;
         height: 1.5rem;
         background: url(../images/icon-clock.svg) center/1.5rem no-repeat;
         content: "";
+        transform: translateY(-50%);
     }
 }
 
