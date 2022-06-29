@@ -134,7 +134,7 @@ main {
 
 .nft-content {
     margin-bottom: 1.8rem;
-    font-family: "outfit", sans-serif;
+    font-family: outfit, sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
     @extend .soft-blue-color;
@@ -151,7 +151,7 @@ main {
 .nft-eth-count {
     position: relative;
     padding-left: 1.85rem;
-    font-family: "outfit", sans-serif;
+    font-family: outfit, sans-serif;
     color: $cyan;
     font-size: 1.5rem;
 
@@ -172,7 +172,7 @@ main {
 
 .nft-time-left {
     position: relative;
-    font-family: 'outfit';
+    font-family: outfit, sans-serif;
     font-size: 1.5rem;
     text-align: right;
     @extend .soft-blue-color;
@@ -211,7 +211,7 @@ main {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 1.5rem;
-    font-family: 'outfit', sans-serif;
+    font-family: outfit, sans-serif;
     font-size: 1.5rem;
     color: $soft-blue;
     text-align: left;
@@ -229,7 +229,7 @@ main {
 
 .nft-title {
     margin-bottom: 1.8rem;
-    font-family: "outfit", sans-serif;
+    font-family: outfit, sans-serif;
     font-weight: 600;
     font-size: 2.1rem;
     color: $white;
@@ -240,10 +240,15 @@ main {
 */
 
 .attribution { 
-    font-size: 1.1rem; 
+    padding: 1.28rem;
+    font-family: outfit, sans-serif;
+    font-size: 1.4rem;
+    color: $white;
     text-align: center;
+    background-color: $dark-blue-card-bg;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    color: $white;
 }
