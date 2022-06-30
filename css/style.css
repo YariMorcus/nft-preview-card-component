@@ -129,6 +129,7 @@ a:active {
 }
 
 .nft-img {
+  position: relative;
   border-radius: 1rem;
 }
 
@@ -216,6 +217,9 @@ a:active {
   font-style: normal;
   color: hsl(0deg, 0%, 100%);
 }
+.author-name:hover {
+  color: hsl(178deg, 100%, 50%);
+}
 
 /*------------------------------------------------------------------
 6. Header
@@ -227,6 +231,9 @@ a:active {
   font-weight: 600;
   font-size: 2.1rem;
   color: hsl(0deg, 0%, 100%);
+}
+.nft-title:hover {
+  color: hsl(178deg, 100%, 50%);
 }
 
 /*------------------------------------------------------------------
