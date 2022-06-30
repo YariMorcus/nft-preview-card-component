@@ -241,7 +241,16 @@ a:active {
   background-color: hsl(216deg, 50%, 16%);
 }
 
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-  color: hsl(0deg, 0%, 100%);
+/*------------------------------------------------------------------
+9. Media queries
+*/
+@media (min-width: 767px) {
+  .nft-title {
+    font-size: 1.95rem;
+  }
+}
+@media (orientation: landscape) {
+  .nft-component {
+    margin: 4rem 0;
+  }
 }
