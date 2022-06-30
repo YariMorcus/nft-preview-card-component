@@ -288,7 +288,18 @@ a {
     background-color: $dark-blue-card-bg;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-    color: $white;
+/*------------------------------------------------------------------
+9. Media queries
+*/
+
+@media (min-width: 767px) {
+    .nft-title {
+        font-size: 1.95rem;
+    }
+}
+
+@media (orientation: landscape) {
+    .nft-component {
+        margin: 4rem 0;
+    }
 }
