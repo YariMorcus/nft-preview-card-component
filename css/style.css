@@ -205,7 +205,7 @@ a:active {
   margin-bottom: 0;
   padding-left: 1.5rem;
   font-family: outfit, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: hsl(215deg, 51%, 70%);
   text-align: left;
 }
@@ -220,7 +220,7 @@ a:active {
     6.1 Headings
 */
 .nft-title {
-  margin-bottom: 1.8rem;
+  margin: 1.8rem 0;
   font-family: outfit, sans-serif;
   font-weight: 600;
   font-size: 2.1rem;
