@@ -125,6 +125,7 @@ a:active {
   width: 32rem;
   background-color: hsl(216deg, 50%, 16%);
   border-radius: 2rem;
+  box-shadow: 0 20px 30px 20px hsl(217deg, 54%, 9%);
 }
 
 .nft-img {
